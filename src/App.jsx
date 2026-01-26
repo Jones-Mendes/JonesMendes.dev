@@ -5,7 +5,7 @@ import AppRoutes from "./routes";
 
 function App() {
   return (
-    <BrowserRouter basename="/JonesMendes.dev">
+    <BrowserRouter>
       <AppRoutes />
     </BrowserRouter>
   );
