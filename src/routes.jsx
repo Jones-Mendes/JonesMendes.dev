@@ -8,7 +8,7 @@ import Page404 from "./pages/Page404";
 
 function AppRoutes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/JonesMendes.dev">
      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/sobre" element={<Sobre />} />
