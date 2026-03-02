@@ -1,9 +1,6 @@
-import styles from './Container.module.css';
-
-
 function Container({children}) {
     return(
-        <section className={styles.Container}>
+        <section className="w-full min-h-[90vh] flex flex-col items-center py-4 px-4 gap-4">
             {children}
         </section>
     )

@@ -1,32 +1,39 @@
-:root {
-  font-family: 'Fira Code', monospace;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #16213E;
+    --color-secondary: #0F3460;
+    --color-terceary: #533483;
+    --color-red: #E94560;
+    --color-soft-white: #f1f1f1;
+    --color-white: #fefefe;
+    --color-black: #111;
+    --color-gray: #222222;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Fira Code', monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  font-family: 'Fira Code', monospace;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-
-  --primary: #16213E;
-  --secondary: #0F3460;
-  --terceary: #533483;
-  --red: #E94560;
-  --soft-white: #f1f1f1;
-  --white: #fefefe;
-  --black: #111;
-  --gray: #222222;
+@theme {
+  --color-primary: #16213E;
+  --color-secondary: #0F3460;
+  --color-terceary: #533483;
+  --color-red: #E94560;
+  --color-soft-white: #f1f1f1;
+  --color-white: #fefefe;
+  --color-black: #111;
+  --color-gray: #222222;
+  
+  --font-family-fira: 'Fira Code', monospace;
 }
